@@ -31,4 +31,58 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+  flex: auto;
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.content {
+  margin: 32px;
+  gap: 16px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+
+.card {
+  flex: 0 0 300px;
+}
+
+.header, .footer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px; 
+}
+
+.footer {
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 16px;
 }
